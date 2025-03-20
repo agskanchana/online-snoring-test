@@ -1,0 +1,36 @@
+.snoring-test-block-editor {
+    padding: 25px;
+    background-color: #f8f9fa;
+    border: 1px solid #e2e4e7;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.snoring-test-block-editor h2 {
+    margin-top: 0;
+    color: #2c3e50;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.snoring-test-block-editor p {
+    margin-bottom: 0;
+    color: #555;
+}
+
+.block-preview {
+    padding: 20px;
+}
+
+.block-editor-preview-icon {
+    margin: 0 auto 15px;
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+
+.block-editor-preview-icon svg {
+    width: 100%;
+    height: 100%;
+    fill: #4285f4;
+}
