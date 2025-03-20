@@ -3,7 +3,7 @@
 * Plugin Name: Online Snoring Test plugin - From Snorer Pharmacy
 * Plugin URI: https://snorer.com/
 * Description: Online Snoring Test from Snorer.com to check for symptoms of obstructive sleep apnoea.
-* Version: 1.0
+* Version: 1.0.1
 * Author: Sameera
 * Author URI: https://www.upwork.com/freelancers/~01e4114853743a42d1?mp_source=share
 **/
