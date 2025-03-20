@@ -4,9 +4,19 @@
 * Plugin URI: https://snorer.com/
 * Description: Online Snoring Test from Snorer.com to check for symptoms of obstructive sleep apnoea.
 * Version: 1.0
-* Author: Janaka
-* Author URI: https://www.upwork.com/o/profiles/users/~019ea6762af63a0f93/
+* Author: Sameera
+* Author URI: https://www.upwork.com/freelancers/~01e4114853743a42d1?mp_source=share
 **/
+
+
+require 'includes/plugin-update-checker/plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+
+$myUpdateChecker = PucFactory::buildUpdateChecker(
+	'https://github.com/agskanchana/online-snoring-test/',
+	__FILE__,
+	'online-snoring-test'
+);
 
 // Add the admin menu
 add_action('admin_menu', 'snoring_test_menu');
